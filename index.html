@@ -336,10 +336,8 @@ body { font-family: Arial, sans-serif; background:var(--bg); color:var(--text); 
 // los archivos externos (mallas/*.js y oprs/*.js)
 // ════════════════════════════════════════
 
-// Referencias a los datos cargados por los scripts externos
-// (ver las etiquetas <script src="..."> al final del body)
-const MALLAS    = window.MALLAS_DATA;
-const OPR_LISTS = window.OPR_DATA;
+// MALLAS y OPR_LISTS se leen desde window en selectCareer(),
+// cuando los archivos externos ya están cargados.
 
 // ════════════════════════════════════════
 // STATE
@@ -360,7 +358,7 @@ const EFG_AREAS = ['Teológico','Humanidades','Artes','Salud y Bienestar','Cs. S
 
 function selectCareer(id) {
   currentCareer = id;
-  MALLA = MALLAS[id];
+  MALLA = (window.MALLAS_DATA || {})[id] || [];
   const headerTitle = document.getElementById('calc-header-title');
   if (id==='bio')        { headerTitle.textContent='Biología Malla Antigua';        ofgReq=70; oprReq=20; }
   else if (id==='bio_new')  { headerTitle.textContent='Biología Malla Nueva';           ofgReq=60; oprReq=60; }
@@ -609,7 +607,7 @@ function makeOPRRow(r) {
   const nameBlock = document.createElement('div');
   nameBlock.className = 'opr-name-block';
 
-  const courseList = OPR_LISTS[currentCareer] || [];
+  const courseList = (window.OPR_DATA || {})[currentCareer] || [];
 
   // Dropdown
   const sel = document.createElement('select');
