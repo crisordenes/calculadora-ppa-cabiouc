@@ -1,0 +1,58 @@
+window.MALLAS_DATA = window.MALLAS_DATA || {};
+
+window.MALLAS_DATA.bio_new = [
+  { year: 'Primer Año', sems: [
+    { num: 1, label: '1er Semestre', cursos: [
+      { code: 'BIO118C', name: 'Evolución',                          crd: 10 },
+      { code: 'BIO114B', name: 'Biología de la Célula',              crd: 10 },
+      { code: 'MAT1000', name: 'Precálculo',                         crd: 10 },
+      { code: 'QIM1001', name: 'Química General',                    crd: 10 },
+      { code: 'BIO105C', name: 'Desafíos de las Ciencias Biológicas',crd: 5  }
+    ]},
+    { num: 2, label: '2do Semestre', cursos: [
+      { code: 'BIO120C', name: 'Biología y Diversidad Vegetal', crd: 10 },
+      { code: 'FIS109C', name: 'Física para Ciencias',          crd: 10 },
+      { code: 'MAT1100', name: 'Cálculo I',                     crd: 10 },
+      { code: 'QIM100B', name: 'Química General II',            crd: 10 },
+      { code: 'FIS0109', name: 'Laboratorio Física para Ciencias', crd: 0, noGrade: true }
+    ]}
+  ]},
+  { year: 'Segundo Año', sems: [
+    { num: 3, label: '3er Semestre', cursos: [
+      { code: 'BIO227E', name: 'Biología y Diversidad Animal',       crd: 10 },
+      { code: 'BIO230C', name: 'Bioestadística',                     crd: 10 },
+      { code: 'QIM200',  name: 'Química Orgánica Fundamental',       crd: 10 },
+      { code: 'BIO210C', name: 'Tópicos / Habilidades',              crd: 5  },
+      { code: 'BIO215C', name: 'Metodología para la Inv. Biológica', crd: 5  },
+      { code: 'FIL2001', name: 'Filosofía ¿Para qué?',               crd: 10 }
+    ]},
+    { num: 4, label: '4to Semestre', cursos: [
+      { code: 'BIO247C', name: 'Biología de Microorganismos', crd: 10 },
+      { code: 'BIO235C', name: 'Biología Computacional',      crd: 10 },
+      { code: 'BIO244C', name: 'Bioquímica',                  crd: 10 }
+    ]}
+  ]},
+  { year: 'Tercer Año', sems: [
+    { num: 5, label: '5to Semestre', cursos: [
+      { code: 'BIO330C', name: 'Ecología',                          crd: 10 },
+      { code: 'BIO356C', name: 'Genética Integrativa',              crd: 10 },
+      { code: 'BIO324C', name: 'Biología del Desarrollo',           crd: 10 },
+      { code: 'BIO310C', name: 'Biomatemática / Modelación de Sist.',crd: 10 },
+      { code: 'ETI201C', name: 'Filosofía y Ética de la Ciencia',   crd: 5  }
+    ]},
+    { num: 6, label: '6to Semestre', cursos: [
+      { code: 'BIO385C', name: 'Fisiología Celular',            crd: 10 },
+      { code: 'BIO372C', name: 'Fisiología Animal / Vegetal',   crd: 10 },
+      { code: 'BIO408C', name: 'Ecoinformática / Bioinformática',crd: 10 },
+      { code: 'BIO390C', name: 'Fisiología de Sistemas',        crd: 10 }
+    ]}
+  ]},
+  { year: 'Cuarto Año', sems: [
+    { num: 7, label: '7mo Semestre', cursos: [
+      { code: 'BIO415C', name: 'Trabajo Experimental en Biología', crd: 10 }
+    ]},
+    { num: 8, label: '8vo Semestre', cursos: [
+      { code: 'BIO416C', name: 'Seminario de Investigación I', crd: 25 }
+    ]}
+  ]}
+];
