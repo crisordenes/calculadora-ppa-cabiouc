@@ -1,0 +1,61 @@
+window.MALLAS_DATA = window.MALLAS_DATA || {};
+
+window.MALLAS_DATA.bq = [
+  { year: 'Primer Año', sems: [
+    { num: 1, label: '1er Semestre', cursos: [
+      { code: 'BIO101B', name: 'Tópicos de Bioquímica',  crd: 5  },
+      { code: 'QIM1001', name: 'Química General I',      crd: 10 },
+      { code: 'MAT1000', name: 'Pre-Cálculo',            crd: 10 },
+      { code: 'QIM101L', name: 'Lab. Química General',   crd: 5  },
+      { code: 'BIO141C', name: 'Biología de la Célula',  crd: 10 },
+      { code: 'FIL2001', name: 'Filosofía: ¿Para qué?', crd: 10 }
+    ]},
+    { num: 2, label: '2do Semestre', cursos: [
+      { code: 'QIM100B', name: 'Química General II',    crd: 10 },
+      { code: 'MAT1100', name: 'Cálculo',               crd: 10 },
+      { code: 'FIS109C', name: 'Física para Ciencias',  crd: 10 }
+    ]}
+  ]},
+  { year: 'Segundo Año', sems: [
+    { num: 3, label: '3er Semestre', cursos: [
+      { code: 'BIO152C', name: 'Bases Físicas de los Procesos Biológicos', crd: 10 },
+      { code: 'BIO242C', name: 'Bioestadística',                           crd: 10 },
+      { code: 'QIM102B', name: 'Química Orgánica I',                       crd: 10 },
+      { code: 'QIM109B', name: 'Química Analítica I',                      crd: 10 }
+    ]},
+    { num: 4, label: '4to Semestre', cursos: [
+      { code: 'QIM103A', name: 'Química Orgánica II',              crd: 10 },
+      { code: 'QIM111',  name: 'Análisis Instrumental',            crd: 10 },
+      { code: 'BIO151E', name: 'Biología de los Microorganismos',  crd: 10 }
+    ]}
+  ]},
+  { year: 'Tercer Año', sems: [
+    { num: 5, label: '5to Semestre',
+      optionalNote: 'Elige UNA opción: BIO225C (Fisiología y Bioquímica Vegetal) o BIO274C (Biología y Fisiología Celular)',
+      cursos: [
+        { code: 'BIO257C', name: 'Bioquímica',                              crd: 10 },
+        { code: 'BIO266D', name: 'Laboratorio Bioquímica I / Biología Celular', crd: 10 },
+        { code: 'BIO226E', name: 'Genética y Evolución',                    crd: 10 },
+        { code: 'QIM104A', name: 'Laboratorio Química Orgánica',            crd: 10 },
+        { code: 'BIO225C', name: 'Fisiología y Bioquímica Vegetal',         crd: 10, optional: true },
+        { code: 'BIO274C', name: 'Biología y Fisiología Celular',           crd: 10, optional: true }
+    ]},
+    { num: 6, label: '6to Semestre', cursos: [
+      { code: 'BIO266E', name: 'Laboratorio Bioquímica / Genética Molecular', crd: 10 },
+      { code: 'QIM114B', name: 'Química Física I',                            crd: 10 },
+      { code: 'BIO288C', name: 'Genética Molecular',                          crd: 10 },
+      { code: 'BIO299E', name: 'Fisiología',                                  crd: 10 },
+      { code: 'BIO299L', name: 'Laboratorio de Fisiología',                   crd: 5  }
+    ]}
+  ]},
+  { year: 'Cuarto Año', sems: [
+    { num: 7, label: '7mo Semestre', cursos: [
+      { code: 'QIM115',  name: 'Química Física II',                crd: 10 },
+      { code: 'BIO295A', name: 'OPR Experiencia de Investigación', crd: 15 }
+    ]},
+    { num: 8, label: '8vo Semestre', cursos: [
+      { code: 'BIO296F', name: 'Seminario de Investigación o BIO258E Práctica extramural', crd: 30 },
+      { code: 'MEB176B', name: 'Laboratorio Clínico',                                      crd: 10 }
+    ]}
+  ]}
+];
