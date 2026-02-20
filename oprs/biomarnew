@@ -1,0 +1,58 @@
+window.MALLAS_DATA = window.MALLAS_DATA || {};
+
+window.MALLAS_DATA.biomar_new = [
+  { year: 'Primer Año', sems: [
+    { num: 1, label: '1er Semestre', cursos: [
+      { code: 'BIO118C', name: 'Evolución',        crd: 10 },
+      { code: 'BIO114B', name: 'Biología de la Célula', crd: 10 },
+      { code: 'MAT1000', name: 'Pre-Cálculo',      crd: 10 },
+      { code: 'QIM1001', name: 'Química General',  crd: 10 },
+      { code: 'BIO130M', name: 'Biología Marina',  crd: 10 }
+    ]},
+    { num: 2, label: '2do Semestre', cursos: [
+      { code: 'BIO150M', name: 'Invertebrados Marinos', crd: 10 },
+      { code: 'FIS109C', name: 'Física para Ciencias',  crd: 10 },
+      { code: 'MAT1100', name: 'Cálculo I',             crd: 10 },
+      { code: 'QIM100B', name: 'Química General II',    crd: 10 }
+    ]}
+  ]},
+  { year: 'Segundo Año', sems: [
+    { num: 3, label: '3er Semestre', cursos: [
+      { code: 'BIO205M', name: 'Vertebrados Marinos',               crd: 10 },
+      { code: 'BIO230C', name: 'Bioestadística',                    crd: 10 },
+      { code: 'BIO210C', name: 'Biología Computacional',            crd: 5  },
+      { code: 'BIO215C', name: 'Metodología para la Inv. Biológica',crd: 5  },
+      { code: 'QIM200',  name: 'Química Orgánica Fundamental',      crd: 10 },
+      { code: 'FIL2001', name: 'Filosofía ¿Para qué?',              crd: 10 }
+    ]},
+    { num: 4, label: '4to Semestre', cursos: [
+      { code: 'BIO260M', name: 'Botánica Marina',       crd: 10 },
+      { code: 'BIO247C', name: 'Bioquímica',            crd: 10 },
+      { code: 'BIO356C', name: 'Genética Integrativa',  crd: 10 },
+      { code: 'BIO355M', name: 'Oceanografía General',  crd: 10 },
+      { code: 'TTF',     name: 'Formación Teológica',   crd: 10 }
+    ]}
+  ]},
+  { year: 'Tercer Año', sems: [
+    { num: 5, label: '5to Semestre', cursos: [
+      { code: 'BIO342M', name: 'Microbiología Marina',          crd: 10 },
+      { code: 'BIO330C', name: 'Ecología (Major)',              crd: 10 },
+      { code: 'BIO324C', name: 'Fisiología Celular (Major)',    crd: 10 },
+      { code: 'BIO310C', name: 'Biomatemática / Modelación',    crd: 10 },
+      { code: 'ETI201C', name: 'Filosofía y Ética de la Ciencia',crd: 5  }
+    ]},
+    { num: 6, label: '6to Semestre', cursos: [
+      { code: 'BIO374M', name: 'Trabajo Experimental Ecología Marina', crd: 10 },
+      { code: 'BIO372C', name: 'Fisiología Animal Comparada',          crd: 10 },
+      { code: 'BIO408C', name: 'Ecoinformática (Major)',                crd: 10 }
+    ]}
+  ]},
+  { year: 'Cuarto Año', sems: [
+    { num: 7, label: '7mo Semestre', cursos: [
+      { code: 'BIO415M', name: 'Seminario de Investigación I', crd: 10 }
+    ]},
+    { num: 8, label: '8vo Semestre', cursos: [
+      { code: 'BIO416M', name: 'Seminario de Investigación II', crd: 25 }
+    ]}
+  ]}
+];
